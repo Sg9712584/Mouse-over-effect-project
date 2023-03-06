@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:black;
+}
+
+img{
+    height: 621px;
+    width: 1330px;
+}
+#nav{
+    position:absolute;
+    margin-top: -500px;
+    position: static;
+    font-size: 50px;
+    margin-left: 200px;
+   
+}
+#nav ul li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.cursor{
+    position:fixed;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: white;
+    transition: 0.2s;
+    transform: translate(-20%,-20%,);
+   
+    mix-blend-mode: difference;
+}
+
+#nav ul li a:hover{
+    transform: scale(5);
+
+}
+.cursor:hover{
+    transform: scale(5);
+}
